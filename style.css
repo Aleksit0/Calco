@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,5 +10,102 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(47, 163, 86), rgb(48, ));
+    background: linear-gradient(rgb(59, 209, 109), rgb(59, 130, 128));
+    font-family: sans-serif;
+    color: white;
+}
+
+.calco {
+    font-family: sans-serif;
+}
+
+.textview {
+    background: #10375C;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.button {
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    background: #10375C;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    outline: none;
+}
+.button:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.button:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
+
+.zeroButton {
+    transition-duration: 0.4s;
+    background: #10375C;
+    color: white;
+    border: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    outline: none;
+}
+.zeroButton:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.zeroButton:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
+
+.dotButton {
+    transition-duration: 0.4s;
+    background: #10375C;
+    color: white;
+    border: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    outline: none;
+}
+.dotButton:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.dotButton:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
+
+.textview {
+    width: 8.3cm;
+    height: 1cm;
+    font-size: large;
 }
