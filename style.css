@@ -109,3 +109,96 @@ body {
     height: 1cm;
     font-size: large;
 }
+
+.buttonc {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    background: #10375C;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    outline: none;
+    grid-column: span 2;
+}
+.buttonc:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.buttonc:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
+
+.buttond {
+    box-sizing: border-box;
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    background: #10375C;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    outline: none;
+}
+.buttond:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.buttond:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
+
+.buttonx {
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    background: #10375C;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    outline: none;
+}
+.buttonx:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.buttonx:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
+
+.columns {
+    width: 2cm;
+    height: 2cm;
+    font-size: 0.7cm;
+    cursor: pointer;
+    border-radius: 35px;
+    background: #10375C;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    outline: none;  
+}
+.columns:hover {
+    background: white;
+    color: #204051;
+    border-color: #204051;
+}
+.columns:active {
+    background-color: rgb(59, 130, 128);    
+    transform: translateY(10px);
+}
