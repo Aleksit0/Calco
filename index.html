@@ -1,53 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = 'stylesheet' href = 'style.css'>
-        <title>Calco</title>
-    </head>
-    <body>
-        <div class = 'main'>
-
-            <h1 class = 'calco'>Calco</h1>
-
-            <form name = 'form'>
-                <input class = 'textview' name = 'textview'>
-            </form>
-
-            <table>
-                <tr>
-                    <td colspan = "1"><input style = 'background: #ffd31d; color: #204051;'  class = 'buttonc' type = 'button' onclick = 'clean()' value = 'C'></td>
-                    <td><input style = 'background: #ffd31d; color: #204051;'  class = 'buttond' type = 'button' onclick = 'insert("/")' value = '/'></td>
-                    <td><input style = 'background: #ffd31d; color: #204051;'  class = 'buttonx' type = 'button' onclick = 'insert("*")' value = 'X'></td>
-                    <td><input style = 'background: #ffd31d; color: #204051;'  class = 'columns' type = 'button' onclick = 'insert("()")' value = '()'></td>
-                </tr>
-                <tr>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(1)' value = '1'></td>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(2)' value = '2'></td>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(3)' value = '3'></td>
-                    <td rowspan = 1><input style = 'background: #ffd31d; color: #204051;'  class = 'button' type = 'button' onclick = 'insert("-")' value = '-'></td>
-                </tr>
-                <tr>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(4)' value = '4'></td>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(5)' value = '5'></td>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(6)' value = '6'></td>
-                    <td><input style = 'background: #ffd31d; color: #204051;'  class = 'button' type = 'button' onclick = 'equal()' value = '='></td>
-                </tr>
-                <tr>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(7)' value = '7'></td>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(8)' value = '8'></td>
-                    <td><input class = 'button' type = 'button' onclick = 'insert(9)' value = '9'></td>
-                    <td><input style = 'background: #ffd31d; color: #204051;' class = 'button' type = 'button' onclick = 'insert("+")' value = '+'></td>
-                </tr>
-                <tr>
-                    <td colspan = '2'><input style = 'width: 4cm;' class = 'dotButton' type = 'button' onclick = 'insert(".")' value = '.'></td>
-                    <td><input style = 'width: 4cm;' class = 'zeroButton' type = 'button' onclick = 'insert(0)' value = '0'></td>
-                </tr>
-            </table>
-        </div>
-
-
-    <script src = 'main.js'></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <title>CalcO</title>
+</head>
+<body>
+    <input type = "number" value = 0>
+    
+    <div class="operations">
+        <button class = "operation" operation = "clear">C</button>
+        <button class = "operation" operation = "plus">+</button>
+        <button class = "operation" operation = "minus">-</button>
+        <button class = "operation" operation = "times">*</button>
+        <button class = "operation" operation = "division">/</button>
+        
+        <button class = "number_button">7</button>
+        <button class = "number_button">8</button>
+        <button class = "number_button">9</button>
+        
+        <button class = "number_button">4</button>
+        <button class = "number_button">5</button>
+        <button class = "number_button">6</button>
+        
+        <button class = "number_button">3</button>
+        <button class = "number_button">2</button>
+        <button class = "number_button">1</button>
+        
+        <button class = "equal">=</button>
+        
+    </div>
+</body>
 </html>
