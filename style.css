@@ -1,11 +1,40 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #333;
-  color: #fff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.5em;
+  font-family: 'Inconsolata', monospace;
+  color: #555;
 }
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #f8f1f1;
+}
+.container {
+  width: 320px;
+  background-color: #f8f1f1;
+  margin: 120px auto;
+}
+table {
+  width: 100%;
+  border-color: #f4f4f4;
+}
+td {
+  width: 25%;
+}
+button {
+  width: 100%;
+  height: 70px;
+  font-size: 24px;
+  background-color: #00efcb;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  color: black;
+  border: 2px solid #5eaaa8;
+  border-radius: 50px;
+}
+#inputLabel {
+  height: 120px;
+  font-size: 40px;
+  vertical-align: bottom;
+  text-align: right;
+  padding-right: 16px;
+  background-color: #8bc917;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  color: white;
+}
+
